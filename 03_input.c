@@ -1,3 +1,5 @@
+//input 
+
 #include<stdio.h>
 
 int main()
