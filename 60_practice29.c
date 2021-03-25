@@ -1,0 +1,20 @@
+#include<stdio.h> 
+
+int main()
+{
+    int arr[10];
+
+    int *ptr = arr; //first location
+    ptr = ptr+2;
+
+    if (ptr==&arr[2])
+    {
+        printf("These point to the same location\n");
+    }
+    else
+    {
+        printf("These do not point to the same location");
+    }
+    
+    return 0;
+}
